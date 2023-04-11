@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap');
+
+@font-face {
+    font-family: 'ChunkyRetro';
+    src: url('./Magic\ Retro.ttf');
+}
+
+.navbar {
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    transition: background-color 0.5s ease;
+    background-color: transparent;
+    color: black;
+    z-index: 1;
+}
+
+.navbar a {
+    color: black;
+}
+
+.navbar.scroll {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.navbar .bg-light {
+    background-color: white;
+    color: black;
+}
+
+.bg-dark {
+    background-color: black;
+    color: white;
+}
+
+.navbar .bg-dark {
+    background-color: black;
+    color: white;
+}
+
+.navbar-component {
+    flex: 1;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.matchmaker {
+    flex: 5;
+    font-size: 3rem;
+    font-family: 'ChunkyRetro', sans-serif;
+    text-align: center;
+    cursor: pointer;
+}
+
+.match {
+    color: #fdb5b5;
+}
+
+.navbar-component:active {
+    transform: translateY(3px);
+}
+
+.login {
+    flex: 1.5;
+}
+
+.signup {
+    flex: 1.5;
+}

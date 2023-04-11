@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"] {
+  cursor: text;
+  pointer-events: auto;
+  user-select: auto;
+}
+
+.SIGNUP {
+  font-family: 'Source Sans Pro', sans-serif;
+  background-image: url("./signup_bg.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+}
+
+.SIGNUP .left-side {
+  width: 50%;
+  margin: 2rem;
+  color: white;
+}
+
+.SIGNUP .right-side {
+  padding: 2rem;
+  width: 50%;
+}
+
+.SIGNUP .right-side img {
+  height: 100%;
+  width: 100%;
+  vertical-align: middle;
+}
+
+.SIGNUP h1 {
+  font-size: 4rem;
+}
+
+.SIGNUP .container {
+  height: 50%;
+  padding: 3rem 0;
+}
+
+.SIGNUP .signup-paragraph {
+  font-size: 14px;
+  width: 80%;
+  margin: 40px 0;
+  font-weight: bold;
+}
+
+.SIGNUP input {
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0);
+  width: 100%;
+  padding: 0.7rem;
+  margin-bottom: 10px;
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-bottom: 1.5px solid rgba(255, 255, 255, 0.26);
+  font-size: 16px;
+  color: white;
+  font-weight: bold;
+}
+
+.SIGNUP input:focus{
+  outline: none;
+  border-bottom: 1.5px solid rgb(255, 255, 255);
+  color: white;
+  font-weight: bold;
+}
+
+.SIGNUP .name-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.SIGNUP .name-container label {
+  width: 49%;
+}
+
+.SIGNUP label {
+  color: white;
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  width: 100%;
+}
